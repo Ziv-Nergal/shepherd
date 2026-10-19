@@ -9,6 +9,7 @@ Every avatar Shepherd can wear is drawn in code by `tools/avatars/`: ink outline
 | `soft-spark` (Soft Spark) | A radial spark with a tall tuft, soft rounded rays, two padded feet and a small smile. |
 | `catpuccino` (Catpuccino) | An anime caramel cat with big shiny eyes and round ears, sitting in a cappuccino cup on a saucer, wearing a foam cap with a latte-art heart; his tail is the cup's handle. He kneads the rim while working, pops out cheering when a response ends, waves a pink-beaned paw when an agent needs you and dozes low in the cup. |
 | `unicorn` (Unicorn) | A chubby white unicorn sitting front-on, with a pastel rainbow mane and tail, a gold spiral horn, a pink muzzle and lilac hooves. His horn glows and sparkles rise while working, he hops when a response ends, raises a hoof and waves when an agent needs you, dozes with his head tilted and giggles under floating hearts when hovered. |
+| `squishy` (Squishy) | A round, glossy bao squishy toy in pastel pink, lilac and sky blue with glitter, a pinched top of three soft tips, three long folds, big sparkly eyes and pink cheeks. Unlike the hatched avatars it is shaded smooth, like jelly foam. He squashes with a bulging belly and rises back slowly like slow-rise foam, his tips swinging a beat behind; he puffs steam while working, springs into the air and lands in a squash when a response ends, hops in alarm when an agent needs you, melts flat to doze and squeezes his eyes shut under floating hearts when hovered. |
 
 ## Layout
 

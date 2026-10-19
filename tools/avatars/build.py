@@ -17,10 +17,11 @@ import block
 import catpuccino
 import ram
 import soft_spark
+import squishy
 import unicorn
 from ink import CELL, GROUND
 
-AVATARS = (ram, block, soft_spark, catpuccino, unicorn)
+AVATARS = (ram, block, soft_spark, catpuccino, unicorn, squishy)
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'assets' / 'avatars'
 PAPER = (237, 235, 231, 255)
