@@ -1,5 +1,16 @@
 # Shepherd
 
+<p align="center">
+  <img src="docs/images/avatars/ram/idle.png" width="96" height="96" alt="Ram">
+  <img src="docs/images/avatars/block/idle.png" width="96" height="96" alt="Block">
+  <img src="docs/images/avatars/soft-spark/idle.png" width="96" height="96" alt="Soft Spark">
+  <img src="docs/images/avatars/catpuccino/idle.png" width="96" height="96" alt="Catpuccino">
+  <img src="docs/images/avatars/unicorn/idle.png" width="96" height="96" alt="Unicorn">
+  <img src="docs/images/avatars/squishy/idle.png" width="96" height="96" alt="Squishy">
+</p>
+
+<p align="center"><a href="assets/avatars/README.md#reactions">Meet the flock and every reaction</a></p>
+
 A cute, quiet hand-drawn desktop companion for coding agents in Herdr.
 
 Shepherd will live above ordinary macOS windows, react when agents work, finish, or need input, and take you back to the relevant Herdr pane when clicked.
@@ -14,7 +25,7 @@ an agent waits for you. Turned on from his menu, the hop and the wave each
 throw a short burst of sparkles around him so they catch your eye from across
 the screen. Clicking him takes you to the Herdr pane behind his
 reaction and brings its Ghostty terminal forward. His right-click menu holds
-his only controls: pick his avatar (Ram, Block, Soft Spark or Catpuccino), turn
+his only controls: pick his avatar (Ram, Block, Soft Spark, Catpuccino, Unicorn or Squishy), turn
 his sparkles on or off (off by default), connect to or disconnect from Herdr, and quit. He never starts at login: installing the
 plugin, its startup hook or its `Connect Shepherd` action starts him, or you
 launch him by hand.
