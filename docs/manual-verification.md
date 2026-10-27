@@ -12,6 +12,8 @@ Shepherd himself is the whole interface, and right-clicking him opens his menu.
 
 Run a Debug build from Xcode, with any installed copy quit first.
 
+- [ ] On a fresh install Sparkles is unchecked in his menu, and he hops and
+      waves without sparkles. Check it before the steps below.
 - [ ] Choosing `finished` from the Reaction (development) submenu hops him and
       throws a short burst of yellow, green and white sparkles that fly past
       his edges and fade within about two and a half seconds.
@@ -19,8 +21,8 @@ Run a Debug build from Xcode, with any installed copy quit first.
       peach, pink and mauve sparkles; the held pose afterwards stays still.
 - [ ] Sparkles follow him when he is dragged mid-burst, and clicks, hovering
       and dragging work as before, including over the sparkles.
-- [ ] Unchecking Sparkles in his menu stops both bursts, and the choice
-      survives a relaunch; checking it brings them back.
+- [ ] The checked Sparkles survives a relaunch; unchecking it stops both
+      bursts.
 - [ ] With System Settings > Accessibility > Display > Reduce motion on, he
       hops and waves without sparkles.
 - [ ] Driven by Herdr (`tools/demo-live-session.sh`), the hop when a response

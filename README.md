@@ -10,11 +10,12 @@ The macOS companion runs locally: he floats above ordinary windows, breathes and
 blinks, reacts to hovering, remembers where he is dragged, and quits from his
 own right-click menu. Connected to Herdr, he concentrates while an agent works,
 hops once when a response ends, and waves then holds a questioning pose while
-an agent waits for you. The hop and the wave each throw a short burst of
-sparkles around him so they catch your eye from across the screen. Clicking him takes you to the Herdr pane behind his
+an agent waits for you. Turned on from his menu, the hop and the wave each
+throw a short burst of sparkles around him so they catch your eye from across
+the screen. Clicking him takes you to the Herdr pane behind his
 reaction and brings its Ghostty terminal forward. His right-click menu holds
 his only controls: pick his avatar (Ram, Block, Soft Spark or Catpuccino), turn
-his sparkles on or off, connect to or disconnect from Herdr, and quit. He never starts at login: installing the
+his sparkles on or off (off by default), connect to or disconnect from Herdr, and quit. He never starts at login: installing the
 plugin, its startup hook or its `Connect Shepherd` action starts him, or you
 launch him by hand.
 

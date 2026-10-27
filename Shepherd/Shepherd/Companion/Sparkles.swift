@@ -25,7 +25,7 @@ final class SparklePreferenceStore {
     }
 
     var isEnabled: Bool {
-        get { defaults.object(forKey: Self.key) as? Bool ?? true }
+        get { defaults.object(forKey: Self.key) as? Bool ?? false }
         set { defaults.set(newValue, forKey: Self.key) }
     }
 }

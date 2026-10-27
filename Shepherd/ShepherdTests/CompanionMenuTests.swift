@@ -88,23 +88,23 @@ struct CompanionMenuTests {
         #expect(titles == ["Avatar", "Sparkles", "Disconnect from Herdr", "Quit Shepherd"])
     }
 
-    @Test func sparklesAreOnByDefault() throws {
+    @Test func sparklesAreOffByDefault() throws {
         let harness = try Harness()
 
-        #expect(try harness.item("Sparkles").state == .on)
-        #expect(harness.sparkles.isEnabled)
+        #expect(try harness.item("Sparkles").state == .off)
+        #expect(!harness.sparkles.isEnabled)
     }
 
     @Test func togglingSparklesIsRemembered() throws {
         let harness = try Harness()
 
         try harness.choose("Sparkles")
-        #expect(try harness.item("Sparkles").state == .off)
-        #expect(!SparklePreferenceStore(defaults: harness.defaults).isEnabled)
-
-        try harness.choose("Sparkles")
         #expect(try harness.item("Sparkles").state == .on)
         #expect(SparklePreferenceStore(defaults: harness.defaults).isEnabled)
+
+        try harness.choose("Sparkles")
+        #expect(try harness.item("Sparkles").state == .off)
+        #expect(!SparklePreferenceStore(defaults: harness.defaults).isEnabled)
     }
 
     @Test func theAvatarMenuListsEveryAvatarAndChecksRamByDefault() throws {
